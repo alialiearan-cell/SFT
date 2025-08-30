@@ -1,8 +1,3 @@
 flask
-subprocess
-threading
-time
-datetime
-random
 scapy
 scapy.all
