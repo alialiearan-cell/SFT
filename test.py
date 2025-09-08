@@ -12,4 +12,5 @@ def tarrer(ip_addr):
         i += 1
         sleep(0.01)
         if i % 10000 == 0:
-            sleep(uniform(1,3)
+            sleep(uniform(1,3))
+
