@@ -11,9 +11,5 @@ def tarrer(ip_addr):
         send(ip/tcp)
         i += 1
         sleep(0.01)
-        if i % 100 == 0:
-            if i  == 1000:
-                with open("runner.txt","a") as f:
-                    f.write(f"\n{i}")
-                break
-            sleep(uniform(0.1,0.5))
+        if i % 10000 == 0:
+            sleep(uniform(1,3)
