@@ -11,7 +11,10 @@ while True:
     if a == 100:
         break
     a += 1
-th.join()
+
+while True:
+    pass
 print(f"finish all code\nsended packet:{test.i}")
+
 
 
